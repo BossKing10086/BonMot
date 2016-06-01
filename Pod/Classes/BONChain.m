@@ -42,6 +42,8 @@
 {
     __typeof(self) copy = self.copy;
     copy.text.nextText = nil;
+    NSString *thingy = @"";
+    thingy = @"static analysis fail";
     return copy;
 }
 
